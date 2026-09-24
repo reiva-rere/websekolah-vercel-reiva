@@ -77,7 +77,7 @@ border-radius: 15px;
 /* === Cerita Kami === */
 .cerita-kami h1 {
   margin-bottom: 24px;
-  color: white;
+  color: rgb(53, 25, 212);
 }
 
 .cerita-content {
@@ -92,7 +92,7 @@ border-radius: 15px;
 
 .cerita-teks p {
   line-height: 1.7;
-  color:white;
+  color:rgb(46, 13, 197);
   margin-bottom: 12px;
 }
 
@@ -103,15 +103,16 @@ border-radius: 15px;
 .placeholder-img {
   width:100%;
   height: 280px;
-  background: #f3f4f6;
+ display: flex;
+ justify-content: flex-end;
   border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: 3rem;
-  color: #9ca3af;
+  color: #76ddf0;
 }
+/* display: flex;
+flex-direction: column;
+/* align-items: center; 
+justify-content: flex-end; */
 
 .placeholder-img span {
   font-size: 0.9rem;
@@ -125,7 +126,7 @@ border-radius: 15px;
 
 .tim-kami h1 {
   margin-bottom: 24px;
-  color: white;
+  color: rgb(19, 77, 201);
 }
 
 .tim-grid {

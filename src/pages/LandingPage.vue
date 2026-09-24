@@ -18,7 +18,7 @@
       Tersedia semua fashion terbaik!
       </h1>
       <p class="max-w-2xl text- balance text-lg font-serif leading-relaxed text-pink-900/80 md:text-2xl">
-        kualitas terjamin mulai dari gaun, tas, dan higheels
+        kualitas terjamin mulai dari gaun, tas, higheels dan aksesoris lainnya. 
       </p>
       <router-link
         to="/product"
@@ -144,8 +144,8 @@
 /* Tombol CTA Form Pil (Border Radius 999px + Shadow) */
 .cta-button {
   display: inline-block;
-  background-color: rgb(185, 14, 43);
-  color: rgb(66, 11, 155);
+  background-color: rgb(224, 116, 152);
+  color: rgb(178, 229, 245);
   font-weight: 700;
   padding: 12px 32px;
   border-radius: 999px;
@@ -195,7 +195,7 @@
 /* Hover Effect Kartu Terangkat */
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 30px -10px rgba(13, 148, 136, 0.15);
+  box-shadow: 0 20px 30px -10px rgba(50, 207, 194, 0.15);
   border-color: #ccfbf1;
 }
 
