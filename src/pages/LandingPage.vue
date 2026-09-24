@@ -12,43 +12,47 @@
 
 <template>
   <div class="landing-wrapper">
-    <!-- Navigation Bar -->
-    <header class="navbar">
-      <div class="brand-logo">sifareiva— Onlineshop</div>
-      <nav class="nav-links">
-        <RouterLink to="/" class="nav-item">Landing</RouterLink>
-        <RouterLink to="/product" class="nav-item">Product</RouterLink>
-        <RouterLink to="/about" class="nav-item">About</RouterLink>
-        <RouterLink to="/contact" class="nav-item">Contact</RouterLink>
-      </nav>
-    </header>
+    <section class="hero flex flex-col items-center gap-5 gradient-to br from-pink-100 via-pink-200 to-pink-300 px-6 py-20
+    text-center text-pink-900 md:py-28">
+    <h1 class="max-w-3xl text-balance text-4xl font-seri leading-tight tracking-tight md:text-6xl">
+      Tersedia semua fashion terbaik!
+      </h1>
+      <p class="max-w-2xl text- balance text-lg font-serif leading-relaxed text-pink-900/80 md:text-2xl">
+        kualitas terjamin mulai dari gaun, tas, dan higheels
+      </p>
+      <router-link
+        to="/product"
+        class="mt-4 inline-block rounded-full bg-pink-100 px-8 py-3 text-lg font-semibold text-red transition duration-150
+        hover:bg-pink-500 active:scale-95 md:text-xl">Lihat produk
+      </router-link>
+  </section>
+    
 
     <!-- 1. Hero Section (Gradasi Sunset: Coral to Teal) -->
-    <section class="hero-card">
+    <!-- <section class="hero-card">
       <h1 class="hero-title">produk berkualitas tampil membuatmu lebih cantik</h1>
       <p class="hero-subtitle">
         Temukan produk terbaik untukmu
       </p>
       
       
-      <center>
-  
-        <video controls width="480" loop>
-          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-        </video>
-      </center>
-      <!-- Tombol RouterLink Berbentuk Pil -->
       <RouterLink to="/product" class="cta-button">
         Jelajahi Produk
       </RouterLink>
-    </section>
+    </section> -->
+    <center>
+
+      <video controls width="480" loop>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      </video>
+    </center>
     
     <!-- 2. Fitur Section (3 Kartu Bayangan + Hover) -->
     <section class="features-grid">
       <div class="feature-card">
         <span class="feature-icon">👗</span>
         <h3 class="feature-title">drees mewah</h3>
-        <p class="feature-desc">hanya disini gaun seleramu.</p>
+        <p class="feature-desc">tersedia disini gaun seleramu.</p>
       </div>
 
       <div class="feature-card">
@@ -114,8 +118,8 @@
   color: rgb(231, 171, 191);
 }
 
- /* HERO SECTION (Gradasi Beda: Sunset Coral ke Emerald Teal) */
- .hero-card {
+/* 1. HERO SECTION (Gradasi Beda: Sunset Coral ke Emerald Teal) */
+.hero-card {
   background: linear-gradient(135deg, beige 0%, rgb(235, 202, 235) 40%, rgb(248, 160, 175) 100%);
   border-radius: 20px;
   padding: 70px 30px;
@@ -135,13 +139,13 @@
   font-size: 1rem;
   opacity: 0.95;
   margin-bottom: 30px;
-} 
+}
 
 /* Tombol CTA Form Pil (Border Radius 999px + Shadow) */
 .cta-button {
   display: inline-block;
-  background-color: pink;
-  color: white;
+  background-color: rgb(185, 14, 43);
+  color: rgb(66, 11, 155);
   font-weight: 700;
   padding: 12px 32px;
   border-radius: 999px;
