@@ -52,7 +52,7 @@ const pesan = ref('')
 <style scoped>
 .banner {
   /* TODO: samakan dengan warna banner Landing Page & About Page */
-  background-color: maroon;
+  background-color: rgb(225, 116, 171);
   color: white;
   text-align: center;
   padding: 3rem 1rem;
@@ -106,12 +106,12 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #4f46e5; /* TODO: samakan dengan warna aksen toko kalian */
+  border-color: #fe94ce; /* TODO: samakan dengan warna aksen toko kalian */
 }
 
 button {
   /* TODO: samakan dengan warna tombol Landing Page */
-  background: #4f46e5;
+  background: #e41fb6;
   color: white;
   border: none;
   padding: 0.7rem 2rem;

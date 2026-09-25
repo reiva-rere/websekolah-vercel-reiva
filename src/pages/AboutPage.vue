@@ -77,7 +77,7 @@ border-radius: 15px;
 /* === Cerita Kami === */
 .cerita-kami h1 {
   margin-bottom: 24px;
-  color: rgb(53, 25, 212);
+  color: rgb(174, 36, 144);
 }
 
 .cerita-content {
@@ -92,7 +92,7 @@ border-radius: 15px;
 
 .cerita-teks p {
   line-height: 1.7;
-  color:rgb(46, 13, 197);
+  color:rgb(220, 53, 181);
   margin-bottom: 12px;
 }
 
@@ -126,7 +126,7 @@ justify-content: flex-end; */
 
 .tim-kami h1 {
   margin-bottom: 24px;
-  color: rgb(19, 77, 201);
+  color: rgb(225, 45, 222);
 }
 
 .tim-grid {

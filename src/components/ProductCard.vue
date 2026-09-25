@@ -34,7 +34,7 @@ function tambahKeKeranjang(nama) {
   
 <style scoped> 
 .card { 
-  border: 1px solid white; 
+  border: 1px solid rgb(230, 202, 225); 
   border-radius: 10px; 
   padding: 14px; 
   width: 200px; 
@@ -44,7 +44,7 @@ function tambahKeKeranjang(nama) {
   
 .preview-overlay { 
   position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
-  background: rgba(0, 0, 0, 0.7); 
+  background: white; 
   display: flex; align-items: center; justify-content: center; 
   cursor: zoom-out; 
 } 
